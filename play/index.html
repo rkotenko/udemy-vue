@@ -9,9 +9,10 @@
 </head>
 <body>
 	<div id="app">
-    <div @click="{{ attachRed = !attachRed }}" class="demo" :class="{ red: attachRed}"></div>
+    <div @click="attachRed = !attachRed" class="demo" :class="colors"></div>
+    <div class="demo" :class="color"></div>
     <div class="demo"></div>
-    <div class="demo"></div>
+    <input type="text" v-model="color" />
   </div>
   
   <script src="app.js"></script>
