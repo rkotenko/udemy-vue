@@ -1,11 +1,11 @@
 <template>
-  <AppServers></AppServers>
+  <div>A wonderful quote</div>test
 </template>
 
 <script>
-  export default {
-   
-  };
+export default {
+
+}
 </script>
 
 <style>
